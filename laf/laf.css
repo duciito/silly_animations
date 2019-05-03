@@ -1,0 +1,897 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html,body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  left: 6px;
+}
+
+.item-1 {
+  position: relative;
+  display: inline-block;
+  background: #ac456e;
+  width: 8%;
+  height: 12%;
+  animation: wat 2s linear 0.1s infinite;
+}
+
+.item-2 {
+  position: relative;
+  display: inline-block;
+  background: #6d552e;
+  width: 8%;
+  height: 12%;
+  animation: wat 2s linear 0.2s infinite;
+}
+
+.item-3 {
+  position: relative;
+  display: inline-block;
+  background: #1d8654;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.6s linear 0.3s infinite;
+}
+
+.item-4 {
+  position: relative;
+  display: inline-block;
+  background: #a42ab6;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.6s linear 0.4s infinite;
+}
+
+.item-5 {
+  position: relative;
+  display: inline-block;
+  background: #e2bd06;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.4s linear 0.5s infinite;
+}
+
+.item-6 {
+  position: relative;
+  display: inline-block;
+  background: #b955db;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.8s linear 0.6s infinite;
+}
+
+.item-7 {
+  position: relative;
+  display: inline-block;
+  background: #4e1a98;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.2s linear 0.7s infinite;
+}
+
+.item-8 {
+  position: relative;
+  display: inline-block;
+  background: #645a97;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.6s linear 0.8s infinite;
+}
+
+.item-9 {
+  position: relative;
+  display: inline-block;
+  background: #6970ca;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.6s linear 0.9s infinite;
+}
+
+.item-10 {
+  position: relative;
+  display: inline-block;
+  background: #59a3b5;
+  width: 8%;
+  height: 12%;
+  animation: wat 1s linear 1s infinite;
+}
+
+.item-11 {
+  position: relative;
+  display: inline-block;
+  background: #834906;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.2s linear 1.1s infinite;
+}
+
+.item-12 {
+  position: relative;
+  display: inline-block;
+  background: #ec0f73;
+  width: 8%;
+  height: 12%;
+  animation: wat 2s linear 1.2s infinite;
+}
+
+.item-13 {
+  position: relative;
+  display: inline-block;
+  background: #75a79a;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.8s linear 1.3s infinite;
+}
+
+.item-14 {
+  position: relative;
+  display: inline-block;
+  background: #99bac6;
+  width: 8%;
+  height: 12%;
+  animation: wat 2s linear 1.4s infinite;
+}
+
+.item-15 {
+  position: relative;
+  display: inline-block;
+  background: #ca230c;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.8s linear 1.5s infinite;
+}
+
+.item-16 {
+  position: relative;
+  display: inline-block;
+  background: #b3a015;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.8s linear 1.6s infinite;
+}
+
+.item-17 {
+  position: relative;
+  display: inline-block;
+  background: #1346c0;
+  width: 8%;
+  height: 12%;
+  animation: wat 2s linear 1.7s infinite;
+}
+
+.item-18 {
+  position: relative;
+  display: inline-block;
+  background: #83d06e;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.6s linear 1.8s infinite;
+}
+
+.item-19 {
+  position: relative;
+  display: inline-block;
+  background: #67a692;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.2s linear 1.9s infinite;
+}
+
+.item-20 {
+  position: relative;
+  display: inline-block;
+  background: #a9e1e7;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.6s linear 2s infinite;
+}
+
+.item-21 {
+  position: relative;
+  display: inline-block;
+  background: #f7cf5c;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.6s linear 2.1s infinite;
+}
+
+.item-22 {
+  position: relative;
+  display: inline-block;
+  background: #8e6e28;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.2s linear 2.2s infinite;
+}
+
+.item-23 {
+  position: relative;
+  display: inline-block;
+  background: #d6ea7f;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.4s linear 2.3s infinite;
+}
+
+.item-24 {
+  position: relative;
+  display: inline-block;
+  background: #d95788;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.8s linear 2.4s infinite;
+}
+
+.item-25 {
+  position: relative;
+  display: inline-block;
+  background: #44eeae;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.8s linear 2.5s infinite;
+}
+
+.item-26 {
+  position: relative;
+  display: inline-block;
+  background: #cea435;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.8s linear 2.6s infinite;
+}
+
+.item-27 {
+  position: relative;
+  display: inline-block;
+  background: #05bf59;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.8s linear 2.7s infinite;
+}
+
+.item-28 {
+  position: relative;
+  display: inline-block;
+  background: #d3d714;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.4s linear 2.8s infinite;
+}
+
+.item-29 {
+  position: relative;
+  display: inline-block;
+  background: #931e1b;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.6s linear 2.9s infinite;
+}
+
+.item-30 {
+  position: relative;
+  display: inline-block;
+  background: #da1275;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.6s linear 3s infinite;
+}
+
+.item-31 {
+  position: relative;
+  display: inline-block;
+  background: #46700a;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.8s linear 3.1s infinite;
+}
+
+.item-32 {
+  position: relative;
+  display: inline-block;
+  background: #e1268e;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.6s linear 3.2s infinite;
+}
+
+.item-33 {
+  position: relative;
+  display: inline-block;
+  background: #6057e1;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.8s linear 3.3s infinite;
+}
+
+.item-34 {
+  position: relative;
+  display: inline-block;
+  background: #9bc19b;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.6s linear 3.4s infinite;
+}
+
+.item-35 {
+  position: relative;
+  display: inline-block;
+  background: #ba9aeb;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.8s linear 3.5s infinite;
+}
+
+.item-36 {
+  position: relative;
+  display: inline-block;
+  background: #7bd889;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.2s linear 3.6s infinite;
+}
+
+.item-37 {
+  position: relative;
+  display: inline-block;
+  background: #b97ecd;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.4s linear 3.7s infinite;
+}
+
+.item-38 {
+  position: relative;
+  display: inline-block;
+  background: #916914;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.2s linear 3.8s infinite;
+}
+
+.item-39 {
+  position: relative;
+  display: inline-block;
+  background: #e60257;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.6s linear 3.9s infinite;
+}
+
+.item-40 {
+  position: relative;
+  display: inline-block;
+  background: #51e540;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.4s linear 4s infinite;
+}
+
+.item-41 {
+  position: relative;
+  display: inline-block;
+  background: #f98833;
+  width: 8%;
+  height: 12%;
+  animation: wat 2s linear 4.1s infinite;
+}
+
+.item-42 {
+  position: relative;
+  display: inline-block;
+  background: #e4dc92;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.6s linear 4.2s infinite;
+}
+
+.item-43 {
+  position: relative;
+  display: inline-block;
+  background: #3ae932;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.6s linear 4.3s infinite;
+}
+
+.item-44 {
+  position: relative;
+  display: inline-block;
+  background: #74d860;
+  width: 8%;
+  height: 12%;
+  animation: wat 2s linear 4.4s infinite;
+}
+
+.item-45 {
+  position: relative;
+  display: inline-block;
+  background: #231602;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.4s linear 4.5s infinite;
+}
+
+.item-46 {
+  position: relative;
+  display: inline-block;
+  background: #d13255;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.2s linear 4.6s infinite;
+}
+
+.item-47 {
+  position: relative;
+  display: inline-block;
+  background: #24af29;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.6s linear 4.7s infinite;
+}
+
+.item-48 {
+  position: relative;
+  display: inline-block;
+  background: #dc545d;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.2s linear 4.8s infinite;
+}
+
+.item-49 {
+  position: relative;
+  display: inline-block;
+  background: #f02b26;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.2s linear 4.9s infinite;
+}
+
+.item-50 {
+  position: relative;
+  display: inline-block;
+  background: #5c7e61;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.6s linear 5s infinite;
+}
+
+.item-51 {
+  position: relative;
+  display: inline-block;
+  background: #ec43b9;
+  width: 8%;
+  height: 12%;
+  animation: wat 1s linear 5.1s infinite;
+}
+
+.item-52 {
+  position: relative;
+  display: inline-block;
+  background: #39c60a;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.4s linear 5.2s infinite;
+}
+
+.item-53 {
+  position: relative;
+  display: inline-block;
+  background: #d58f56;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.2s linear 5.3s infinite;
+}
+
+.item-54 {
+  position: relative;
+  display: inline-block;
+  background: #687ece;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.2s linear 5.4s infinite;
+}
+
+.item-55 {
+  position: relative;
+  display: inline-block;
+  background: #e13e23;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.4s linear 5.5s infinite;
+}
+
+.item-56 {
+  position: relative;
+  display: inline-block;
+  background: #1f0bf5;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.2s linear 5.6s infinite;
+}
+
+.item-57 {
+  position: relative;
+  display: inline-block;
+  background: #50fada;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.2s linear 5.7s infinite;
+}
+
+.item-58 {
+  position: relative;
+  display: inline-block;
+  background: #bf7959;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.2s linear 5.8s infinite;
+}
+
+.item-59 {
+  position: relative;
+  display: inline-block;
+  background: #77576f;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.8s linear 5.9s infinite;
+}
+
+.item-60 {
+  position: relative;
+  display: inline-block;
+  background: #6471ee;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.2s linear 6s infinite;
+}
+
+.item-61 {
+  position: relative;
+  display: inline-block;
+  background: #3e6baa;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.4s linear 6.1s infinite;
+}
+
+.item-62 {
+  position: relative;
+  display: inline-block;
+  background: #382d40;
+  width: 8%;
+  height: 12%;
+  animation: wat 2s linear 6.2s infinite;
+}
+
+.item-63 {
+  position: relative;
+  display: inline-block;
+  background: #21ee9f;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.8s linear 6.3s infinite;
+}
+
+.item-64 {
+  position: relative;
+  display: inline-block;
+  background: #33d9c7;
+  width: 8%;
+  height: 12%;
+  animation: wat 2s linear 6.4s infinite;
+}
+
+.item-65 {
+  position: relative;
+  display: inline-block;
+  background: #f911e1;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.6s linear 6.5s infinite;
+}
+
+.item-66 {
+  position: relative;
+  display: inline-block;
+  background: #2ebd9d;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.2s linear 6.6s infinite;
+}
+
+.item-67 {
+  position: relative;
+  display: inline-block;
+  background: #c885e2;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.6s linear 6.7s infinite;
+}
+
+.item-68 {
+  position: relative;
+  display: inline-block;
+  background: #c510b0;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.6s linear 6.8s infinite;
+}
+
+.item-69 {
+  position: relative;
+  display: inline-block;
+  background: #9e57d4;
+  width: 8%;
+  height: 12%;
+  animation: wat 2s linear 6.9s infinite;
+}
+
+.item-70 {
+  position: relative;
+  display: inline-block;
+  background: #da466c;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.6s linear 7s infinite;
+}
+
+.item-71 {
+  position: relative;
+  display: inline-block;
+  background: #d009de;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.6s linear 7.1s infinite;
+}
+
+.item-72 {
+  position: relative;
+  display: inline-block;
+  background: #8c8c03;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.6s linear 7.2s infinite;
+}
+
+.item-73 {
+  position: relative;
+  display: inline-block;
+  background: #47282e;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.8s linear 7.3s infinite;
+}
+
+.item-74 {
+  position: relative;
+  display: inline-block;
+  background: #68d647;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.8s linear 7.4s infinite;
+}
+
+.item-75 {
+  position: relative;
+  display: inline-block;
+  background: #11d961;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.8s linear 7.5s infinite;
+}
+
+.item-76 {
+  position: relative;
+  display: inline-block;
+  background: #2f08ee;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.4s linear 7.6s infinite;
+}
+
+.item-77 {
+  position: relative;
+  display: inline-block;
+  background: #414998;
+  width: 8%;
+  height: 12%;
+  animation: wat 2s linear 7.7s infinite;
+}
+
+.item-78 {
+  position: relative;
+  display: inline-block;
+  background: #05ad50;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.4s linear 7.8s infinite;
+}
+
+.item-79 {
+  position: relative;
+  display: inline-block;
+  background: #edefcc;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.2s linear 7.9s infinite;
+}
+
+.item-80 {
+  position: relative;
+  display: inline-block;
+  background: #5fc06f;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.6s linear 8s infinite;
+}
+
+.item-81 {
+  position: relative;
+  display: inline-block;
+  background: #463038;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.4s linear 8.1s infinite;
+}
+
+.item-82 {
+  position: relative;
+  display: inline-block;
+  background: #729216;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.6s linear 8.2s infinite;
+}
+
+.item-83 {
+  position: relative;
+  display: inline-block;
+  background: #e1a93c;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.2s linear 8.3s infinite;
+}
+
+.item-84 {
+  position: relative;
+  display: inline-block;
+  background: #b393a4;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.6s linear 8.4s infinite;
+}
+
+.item-85 {
+  position: relative;
+  display: inline-block;
+  background: #16dc19;
+  width: 8%;
+  height: 12%;
+  animation: wat 1s linear 8.5s infinite;
+}
+
+.item-86 {
+  position: relative;
+  display: inline-block;
+  background: #115185;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.4s linear 8.6s infinite;
+}
+
+.item-87 {
+  position: relative;
+  display: inline-block;
+  background: #b7821b;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.8s linear 8.7s infinite;
+}
+
+.item-88 {
+  position: relative;
+  display: inline-block;
+  background: #dbb3c3;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.4s linear 8.8s infinite;
+}
+
+.item-89 {
+  position: relative;
+  display: inline-block;
+  background: #c69f1d;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.2s linear 8.9s infinite;
+}
+
+.item-90 {
+  position: relative;
+  display: inline-block;
+  background: #c9afed;
+  width: 8%;
+  height: 12%;
+  animation: wat 2s linear 9s infinite;
+}
+
+.item-91 {
+  position: relative;
+  display: inline-block;
+  background: #39df3d;
+  width: 8%;
+  height: 12%;
+  animation: wat 2s linear 9.1s infinite;
+}
+
+.item-92 {
+  position: relative;
+  display: inline-block;
+  background: #4705ba;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.6s linear 9.2s infinite;
+}
+
+.item-93 {
+  position: relative;
+  display: inline-block;
+  background: #0a2a21;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.4s linear 9.3s infinite;
+}
+
+.item-94 {
+  position: relative;
+  display: inline-block;
+  background: #97202c;
+  width: 8%;
+  height: 12%;
+  animation: wat 1.2s linear 9.4s infinite;
+}
+
+.item-95 {
+  position: relative;
+  display: inline-block;
+  background: #f4684c;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.4s linear 9.5s infinite;
+}
+
+.item-96 {
+  position: relative;
+  display: inline-block;
+  background: #d05acf;
+  width: 8%;
+  height: 12%;
+  animation: wat 0.6s linear 9.6s infinite;
+}
+
+@keyframes wat {
+  from {
+    background: #786215;
+  }
+  to {
+    background: #ebd749;
+  }
+}

@@ -1,0 +1,166 @@
+html, body {
+  background-color: #f9f0f6;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.grass {
+  width: 100%;
+  height: 20%;
+  background: #2cac55;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+}
+
+.scene {
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: 0;
+}
+
+.inner-scene {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fbf8d8;
+  animation: day-to-night 5s linear 1s 1 alternate forwards;
+}
+
+.sun {
+  background: #fdff82;
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  top: 10%;
+  left: 10%;
+  border-radius: 120%;
+  animation: sun-fade 5s linear 1s 1 alternate forwards;
+}
+
+.moon {
+  background: rgba(230, 230, 230, 0.53);
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  bottom: 0;
+  right: 10%;
+  border-radius: 120%;
+  opacity: 0;
+  animation: moon-come-to-live 5s linear 1s 1 alternate forwards;
+}
+
+.inner-moon {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+}
+
+.a-moon {
+  background: #e5e5e5;
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  bottom: 10%;
+  right: 10%;
+  border-radius: 120%;
+  animation: change-size 5s linear 1s 1 alternate forwards;
+}
+
+.moon-particle {
+  top: 15%;
+  left: 20%;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background: #b2b2b2;
+  border-radius: 140%;
+}
+
+.moon-particle:nth-child(2) {
+  top: 35%;
+  left: 64%;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background: #b2b2b2;
+  border-radius: 140%;
+}
+
+.moon-particle:last-child {
+  top: 58%;
+  left: 30%;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background: #b2b2b2;
+  border-radius: 140%;
+}
+
+
+@keyframes day-to-night {
+  from {
+    background: #fbf8d8;
+  }
+  to {
+    background: #32312b;
+  }
+}
+
+@keyframes sun-fade {
+  to {
+    width: 4rem;
+    height: 4rem;
+    top: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes moon-come-to-live {
+  from {
+    opacity: 0;
+    width: 5rem;
+    height: 5rem;
+  }
+  to {
+    opacity: 1;
+    width: 10rem;
+    height: 10rem;
+    bottom: 68%;
+  }
+}
+
+@keyframes change-size {
+  from {
+    width: 4rem;
+    height: 4rem;
+  }
+  to {
+    width: 8rem;
+    height: 8rem;
+  }
+}

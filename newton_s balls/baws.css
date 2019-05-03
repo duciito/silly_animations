@@ -1,0 +1,100 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.frame {
+  position: relative;
+  margin-top: 120px;
+  margin-left: calc(50% - 220px);
+  background: rgb(83, 255, 185);
+  box-shadow: 0 0 2px 2px rgba(126, 126, 126, 0.45);
+  height: 400px;
+  width: 440px;
+  overflow: hidden;
+}
+
+.line {
+  background: rgb(254, 254, 254);
+  position: absolute;
+  width: 340px;
+  height: 6px;
+  top: 60px;
+  left: 50px;
+}
+
+.rope {
+  background: rgb(254, 254, 254);
+  position: absolute;
+  width: 2px;
+  height: 200px;
+  top: 60px;
+  left: 100px;
+}
+
+.rope::after {
+  content: "";
+  background: rgb(254, 254, 254);
+  border-radius: 50%;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: -20px;
+  left: -30px;
+}
+
+.rope:nth-child(2) {
+  left: 160px;
+}
+
+.rope:nth-child(3) {
+  left: 220px;
+}
+
+.rope:nth-child(4) {
+  left: 280px;
+}
+
+.rope:nth-child(5) {
+  left: 340px;
+  animation: klatene 0.8s ease-out infinite alternate;
+}
+
+.rope:nth-child(6) {
+  animation: klat 0.8s ease-out 0.8s infinite alternate;
+}
+
+@keyframes klatene {
+  from {
+    transform: rotate(0) translate(0);
+  }
+  45% {
+    transform: rotate(0) translate(0);
+  }
+  to {
+    transform: rotate(-20deg) translate(33px,5px);
+  }
+}
+
+@keyframes klat {
+  from {
+    transform: rotate(0) translate(0);
+  }
+  45% {
+    transform: rotate(0) translate(0);
+  }
+  to {
+    transform: rotate(20deg) translate(-33px,5px);
+  }
+}

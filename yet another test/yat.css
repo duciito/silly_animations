@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.red {
+  background: rgb(255, 135, 135);
+  border-radius: 50%;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 130px;
+  left: 440px;
+  z-index: 1;
+  animation: red 1.5s cubic-bezier(.13,1,1,.03) alternate infinite;
+}
+
+.green {
+  background: rgb(164, 251, 159);
+  border-radius: 50%;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 130px;
+  right: 440px;
+  animation: green 1.5s cubic-bezier(.13,1,1,.03) alternate infinite;
+}
+
+.blue {
+  background: rgb(135, 244, 255);
+  border-radius: 50%;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 440px;
+  top: 414px;
+  z-index: 1;
+  animation: blue 1.5s cubic-bezier(.13,1,1,.03) alternate infinite;
+}
+
+.yellow {
+  background: rgb(249, 255, 135);
+  border-radius: 50%;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: 440px;
+  top: 414px;
+  animation: yellow 1.5s cubic-bezier(.13,1,1,.03) alternate infinite;
+}
+
+@keyframes yellow {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translate(-387px, -284px);
+  }
+}
+
+@keyframes red {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translate(387px, 284px);
+  }
+}
+
+@keyframes blue {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translate(387px, -284px);
+  }
+}
+
+@keyframes green {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translate(-387px, 284px);
+  }
+}
